@@ -10,6 +10,12 @@
     background: #1a1a1a;
     overflow: auto;  /* Allow horizontal scroll */
   }
+      .iframe-wrapper {
+      width: 100vw;
+      height: 100vh;
+      overflow: auto;
+      -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+    }
   iframe { 
     border: none; 
     width: 100vw;
@@ -19,7 +25,7 @@
 </style>
 </head>
 <body>
-<iframe style="position:absolute" width="100%" height="884" frameborder="0"
+<iframe width="100%" height="884" frameborder="0"
   src="https://observablehq.com/embed/55f93f645313c087@168?cells=chart"></iframe>
 </body>
 </html>
