@@ -8,12 +8,15 @@
     margin: 0; 
     padding: 0;
     background: #0a0a0a;
+    overflow-x: auto;  /* Allow horizontal scroll */
+    overflow-y: hidden;
   }
   iframe { 
     border: none; 
-    width: 100vw;
+    width: 2000px;     /* Fixed width */
     height: 100vh;
     display: block;
+    min-width: 2000px;
   }
 </style>
 </head>
