@@ -19,8 +19,9 @@
     }
     iframe { 
       border: none; 
-      width: 1800px;  /* Your chart's actual width */
-      height: 800px;  /* Your chart's actual height */
+      width: 1800px;
+      height: 100%;  /* Fill the wrapper height instead of fixed 800px */
+      min-height: 800px;  /* But don't shrink below chart size */
       display: block;
     }
   </style>
